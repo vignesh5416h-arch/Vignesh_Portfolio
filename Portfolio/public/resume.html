@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View information about Aleti Vignesh's resume, education, technical skills, and projects.">
+  <title>Resume | Aleti Vignesh</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="index.html">AV<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="resume.html" aria-current="page">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content container">
+    <p class="eyebrow">MY PROFESSIONAL PROFILE</p>
+    <h1 class="page-title">My <span>Resume</span></h1>
+
+    <section class="content-card resume-card">
+      <div class="resume-icon" aria-hidden="true">CV</div>
+      <h2>Aleti Vignesh</h2>
+      <p class="resume-role">B.Tech CSE (AI &amp; ML) Student</p>
+      <p>
+        My resume presents my education, technical skills, projects,
+        and learning journey toward a career in Machine Learning.
+      </p>
+      <div class="resume-actions">
+        <a class="btn btn-primary"
+           href="resume.pdf"
+           download="Aleti_Vignesh_Resume.pdf">
+          Download Resume (PDF)
+        </a>
+        <a class="btn btn-secondary" href="resume.pdf" target="_blank"
+           rel="noopener noreferrer">Open PDF in New Tab</a>
+      </div>
+    </section>
+
+    <section class="resume-preview-section" aria-labelledby="resume-preview-title">
+      <div class="resume-preview-heading">
+        <div>
+          <p class="eyebrow">DOCUMENT PREVIEW</p>
+          <h2 id="resume-preview-title">View my resume</h2>
+        </div>
+        <a class="text-link" href="resume.pdf" target="_blank"
+           rel="noopener noreferrer">Open full-size PDF ↗</a>
+      </div>
+      <object class="resume-preview" data="resume.pdf" type="application/pdf"
+              aria-label="Preview of Aleti Vignesh's resume">
+        <p class="resume-note">
+          Your browser can't display the PDF preview.
+          <a class="text-link" href="resume.pdf"
+             download="Aleti_Vignesh_Resume.pdf">Download the resume instead</a>.
+        </p>
+      </object>
+    </section>
+
+    <a class="btn btn-secondary" href="index.html">Back to Home</a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year"></span> Aleti Vignesh.</p>
+    </div>
+  </footer>
+</body>
+</html>
